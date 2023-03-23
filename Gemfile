@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.1"
 
+gem 'rails-i18n', '~> 7.0.0'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
